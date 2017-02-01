@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Prueba</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+      <script>
+    (function() {
+      if (sessionStorage.fonts) {
+        console.log("Fonts installed.");
+        document.documentElement.classList.add('wf-active');
+      } else {
+        console.log("No fonts installed.");
+      }
+    })();
+  </script>
+  </head>
+  <body>
+  {{> header}}
